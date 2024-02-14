@@ -13,6 +13,7 @@ public class Course {
 	
 	private String author;
 
+	// constructor
 	public Course() {
 
 	}
@@ -24,6 +25,7 @@ public class Course {
 		this.author = author;
 	}
 
+	// getters
 	public long getId() {
 		return id;
 	}
@@ -48,13 +50,9 @@ public class Course {
 		this.author = author;
 	}
 
+	// toString
 	@Override
 	public String toString() {
 		return "Course [id=" + id + ", name=" + name + ", author=" + author + "]";
 	}
-
-	// constructor
-	// getters
-	// toString
-
 }
