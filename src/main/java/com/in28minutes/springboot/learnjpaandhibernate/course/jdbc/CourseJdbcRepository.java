@@ -43,7 +43,7 @@ public class CourseJdbcRepository {
 	}
 	
 	public void deleteById(long id) {
-		springJdbcTemplate.update(DELETE_QUERY,id);
+		springJdbcTemplate.update(DELETE_QUERY,id); 
 	}
 	
 	public Course findById(long id) {
